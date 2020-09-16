@@ -4,4 +4,4 @@ setInterval(
         const el = document.querySelector(selector);
 	    if (el) el.click();
     },
- 3000);
+ 5000);
