@@ -1,8 +1,13 @@
 {
     "name": "Channel-Coin",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 2,
+    "author": {
+      "name": "Sami ZERRAI",
+      "url": "https://github.com/SamiZerrai"
+    },
     "description": "Automatically gather Channel points",
+    "permissions": ["activeTab"],
     "content_scripts": [
       {
         "matches": ["*://*.twitch.tv/*"],
